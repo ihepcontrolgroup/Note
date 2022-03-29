@@ -41,3 +41,10 @@
   padding: 2px;">图1 123</div>
   </div>
   ```
+  
+## linux
+
+#### 1. 查看使用者user1与python3的进程
+  ```bash
+  ps -aux | grep user1 | grep python3
+  ```
