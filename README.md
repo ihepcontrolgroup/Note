@@ -48,3 +48,7 @@
   ```bash
   ps -aux | grep user1 | grep python3
   ```
+#### 2. 从根目录开始查找所有扩展名为.log的文本文件，并找出包含”ERROR”的行
+  ```bash
+  find / -type f -name “*.log” | xargs grep “ERROR”
+  ```
