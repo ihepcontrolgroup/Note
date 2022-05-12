@@ -56,4 +56,7 @@
 ## latex
 #### 1· 将公式中的部分斜体变为直体
 - 全局使用
+  ```latex
   $\mathrm{ab \times cd = ef}$
+  ```
+  ![](https://latex.codecogs.com/svg.image?\mathrm{ab&space;\times&space;cd&space;=&space;ef})
