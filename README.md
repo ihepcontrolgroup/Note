@@ -52,3 +52,8 @@
   ```bash
   find / -type f -name “*.log” | xargs grep “ERROR”
   ```
+
+## latex
+#### 1· 将公式中的部分斜体变为直体
+- 全局使用
+  $\mathrm{ab \times cd = ef}$
